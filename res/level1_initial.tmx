@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="dsf.tsx"/>
+ <tileset firstgid="61" source="sheet1.tsx"/>
+ <tileset firstgid="121" source="ff.tsx"/>
+ <tileset firstgid="125" name="player_all" tilewidth="32" tileheight="32">
+  <image source="../Downloads/r1chardj0n3s-pygame-tutorial-d27e939a73bd/triggers.png" width="192" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="player" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="131" name="sheet" tilewidth="32" tileheight="32" spacing="2">
+  <image source="../Downloads/fhdfd/sheet.png" width="692" height="419"/>
+ </tileset>
+ <layer name="Main_Layer" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt19EJgzAQxvHQWlfoNGpf1W6lO+giukM7VSOcL2ku2mr05f+D40MJ4QiBI8YAAAAAAKBrbLWeBJZkge/OVu/JWO4R9wZiu0heJZOzGsHuBlvj2U0ouHfHuEnO55z+sUcpWUu+bL23NKXgTgAAlkyzYp4TWq6dH7lk4eQv82dNP1v73Is7Z0N9VJK1kk9nvfs21872iHyYb4XnHxDbBzUgEgo=
+  </data>
+ </layer>
+ <layer name="TOP" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzskJADAIAEHbzlF8bCKIMgP73wgAAAAAAAB+W9munmCck93qCQBo5AEyoAHr
+  </data>
+ </layer>
+ <layer name="Invisible" width="150" height="15" opacity="0">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6A3s38rY9w5SEACAAAAAHDLtAMAAAC8tLDlAEA=
+  </data>
+ </layer>
+ <objectgroup color="#ffffff" name="triggers" width="150" height="15">
+  <properties>
+   <property name="platform" value=""/>
+  </properties>
+  <object x="385" y="198" width="61" height="59">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="9" y="419" width="340" height="57">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="319" y="198" width="64" height="57">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="383" y="323" width="192" height="67">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="607" y="420" width="251" height="60">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="933" y="324" width="183" height="60">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1220" y="228" width="60" height="57">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1151" y="419" width="541" height="65">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1767" y="323" width="183" height="67">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2048" y="258" width="188" height="64">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2305" y="289" width="187" height="64">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2528" y="420" width="253" height="65">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2884" y="417" width="317" height="64">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="3267" y="420" width="63" height="57">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="3397" y="421" width="1049" height="64">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="4543" y="417" width="69" height="64">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="4035" y="227" width="61" height="60">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="37" y="289" width="25" height="29">
+   <properties>
+    <property name="player" value=""/>
+   </properties>
+  </object>
+  <object x="350" y="452" width="256" height="27">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="865" y="446" width="284" height="37">
+   <properties>
+    <property name=" ground" value=""/>
+   </properties>
+  </object>
+  <object x="1697" y="450" width="829" height="32">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="2785" y="449" width="98" height="30">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="3201" y="446" width="66" height="32">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="3332" y="451" width="60" height="28">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="4451" y="450" width="91" height="28">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="4386" y="321" width="64" height="63">
+   <properties>
+    <property name="final" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

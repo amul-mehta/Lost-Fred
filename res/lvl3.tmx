@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="back" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="bg_grasslands.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="451" name="grass" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="grassHalfMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="455" name="buld1l" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseBeigeBottomLeft.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="459" name="build1m" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseBeigeBottomMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="463" name="build1r" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseBeigeBottomRight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="467" name="build1tl" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseBeigeTopLeft.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="471" name="build1tm" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseBeigeTopMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="475" name="build1tr" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseBeigeTopRight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="479" name="build1mm" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseBeigeAlt.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="483" name="build1mmm" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseBeigeAlt2.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="487" name="roof1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="roofYellowTopMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="491" name="roof1l" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="roofYellowTopRight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="495" name="roofr" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="roofYellowTopLeft.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="499" name="build2l" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseDarkBottomLeft.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="503" name="build2m" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseDarkBottomMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="507" name="build2r" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseDarkBottomRight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="511" name="buildtl" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseDarkTopLeft.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="515" name="build2tm" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseDarkTopMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="519" name="build2tr" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseDarkTopRight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="523" name="build2mm" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseDarkAlt.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="527" name="build2mmm" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseDarkAlt2.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="531" name="roof2" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="roofRedTopMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="535" name="roof2l" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="roofRedTopRight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="539" name="roof2r" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="roofRedTopLeft.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="543" name="build3r" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseGrayBottomLeft.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="547" name="build3m" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseGrayBottomMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="551" name="build3r" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseGrayBottomRight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="555" name="build3tm" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseGrayTopMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="559" name="build3tr" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseGrayTopRight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="563" name="build3mm" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseGrayAlt.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="567" name="build3mmm" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseGrayAlt2.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="571" name="bush" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="bush.png" width="216" height="72"/>
+ </tileset>
+ <tileset firstgid="583" name="wind1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="windowCheckered.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="587" name="wind11" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="windowLowCheckered.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="591" name="build2" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="windowLowLeadlight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="595" name="build22" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="windowLeadlight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="599" name="wind3" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="windowLowOpen.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="603" name="wind33" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="windowOpen.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="607" name="chin" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="chimney.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="611" name="chin1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="chimneyLow.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="615" name="chin3" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="chimneyThin.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="619" name="build3tl" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="houseGrayTopLeft.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="623" name="meter" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="anemometer.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="627" name="sign" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="signHangingCup.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="631" name="mush1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomBrownAltSpotsLeft.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="635" name="mush11" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomBrownAltSpotsMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="639" name="mush111" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomBrownAltSpotsMidAlt.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="643" name="mush1111" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomBrownAltSpotsRight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="647" name="stem" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="stemBase.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="651" name="stem1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="stemCrown.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="655" name="stem2" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="stemShroom.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="659" name="stem4" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="stemTop.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="663" name="stem5" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="stemVine.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="667" name="smallmush" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="tallShroom_brown.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="671" name="smallmush1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="tallShroom_red.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="675" name="smallmush2" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="tallShroom_tan.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="679" name="smallmush3" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="tinyShroom_red.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="683" name="mush2" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomTanAltLeft.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="687" name="mush22" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomTanAltMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="691" name="mush3" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomTanAltMidAlt.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="695" name="mush2222" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomTanAltRight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="699" name="mush3" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomRedAltLeft.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="703" name="mush33" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomRedAltMid.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="707" name="mush3333" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomRedAltMidAlt.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="711" name="mush33333" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="shroomRedAltRight.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="715" name="door1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="doorKnob.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="719" name="door11" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="doorTop.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="723" name="door2" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="doorKnobAlt.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="727" name="door22" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="doorPlateTop.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="731" name="door3" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="doorLock.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="735" name="fence" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="fenceGate.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="739" name="fence1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="fenceLow.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="743" name="fence3" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="fenceLong.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="747" name="signExit" tilewidth="32" tileheight="32">
+  <image source="signExit.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0kkNACAQBMHJ+nfKoQH+CNiEVCnoRycAAAAAAAAA8BqVzOqu4DfrPrV9RZMDxrMDuw==
+  </data>
+ </layer>
+ <layer name="back" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt2MO2WAcAQNH3Ytu2bdu2bdu2bdu2rTapjaRNiqBM6sbd/Y277mCPz/xERkRERCEq0YhODGISi9jEIS7xiE8CEpKIxCQhKclITgpSkorUpCEt6UhPBiLDbqC7GclEZrKQlWxkJwc5yUVu8pCXfOSnAAUpRGGKUJRiFKcEJSlFacpQlnJhN/Dd8lSgIpWoTBWqUo3q1KAmtahNHepSj/o0oCGNaEwTmtKM5rSgJa1oTZuwG/huW9rRng50pBOd6UJXutGdHvSkF73pQ1/60Z8BDGQQgxnCUIYxnBGMZFTYDXx3NGMYyzjGM4GJTGIyU5jKNKYzg5nMYjZzmMs85rOAhSxiMUtYyjKWsyLsBr67klWsZg1rWcd6NrCRTWxmC1vZxnZ2sJNd7GYPe9nHfg5wkEMc5ghHORZ2A989zglOcorTnOEs5zjPBS5yictc4SrXuM4N3uBNbnKLt3ibd3iX93ifD/gw7Aa++xEf8wmf8hmf8wVfcps7fMXX3OUe3/At3/E993nAQx7xAz/yEz/zC7/ymCdhN/Dd3/idP/iTv/ibf/iXpzzjOS94ySte8/8ciSQKUYlGdGIQk1jEJg5xiUd8EkSG3aB3E5KIxCQhKclITgpSkorUpCEt6UhPBjKSicxkISvZyE4OcpKL3OQhL/nCbuC7+SlAQQpRmCIUpRjFKUFJSlGaMpSlHOWpQEUqUZkqVKUa1alBTWpRmzphN/DdutSjPg1oSCMa04SmNKM5LWhJK1rThra0oz0d6EgnOtOFrnSjOz3oSa+wG/hub/rQl370ZwADGcRghjCUYQxnBCMZxWjGMJZxjGcCE5nEZKYwlWlMZ0bYDXx3JrOYzRzmMo/5LGAhi1jMEpayjOWsYCWrWM0a1rKO9WxgI5vYzBa2si3sBr67nR3sZBe72cNe9rGfAxzkEIc5wlGOcZwTnOQUpznDWc5xngtc5BKXuRJ2A9/9D6ES8uw=
+  </data>
+ </layer>
+ <layer name="grassnbld" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztlfePVUUUx9+9iAtiQSnZQMjSUakJoCiI9H+DJmJL6IqAVMVC1QQLv1B+paOigICwm2yx0BcICyJF2goBliKK+pnknuzseOfeuW9h90neST6Z8+bNPffMnO+cm0plLWtZy1rWMsVG+qnUS37l7zH4Y337+qxlnknNRsMrGVK7UeTxspbLOPzxGZJbJpt5H2vTpGavwms1lFPU/su9VOosnAtG8S97NZPb/9nM+5jE7nZfKa+F+kXt/xLvPw8XglH8KwnzMvV57j7TqF636uxP7ng6fWUo64dFPLOfPI5C2T08b1uNw/L8R837ldRL4x6Z+tTHpBrNVJNzqgMPQE4aZyV3vBE0DhmbR8Qbzn8jtP/NHnUQSuF4yHnH9UfXvmCrcVie15ivgLr4D8JfMTowc5yAP1GLU51zd7VVxF0N62A9fAlfwTfwbZrv3Mpz30E+FEAhFGmxPHzfrzyn+vBQzLtyDe2I3wSahowtgngudZa7LLWN0pX0xyv4V+EaVGj/u/aFPGJ0hE7a+KRlj0l1ZfbwSfhvhsRxOfd0bQ1x18IG2AhfwybYDFsSvtNVo+noqpmhHfHVN+sAHILDId8v1zoX4hfBsYDdsMeoX672blPHen9U/TjHr4rZF5SuWkJn6AIdAl2F7VHpoQHjwxZdmXfO1rdFVxLrTy9eo6a9xXOTtZgz8GfCHHjXUsMlzH9aDf3qGl0ACy0aFV09Bg0T3BvRkFCm9ZZTcNqih9eJ/YbWF7pCN+N9Sle/wIkIXbnG0u9NXcv+RFfdoYemqyKvKioHpYdH+O9Ri67MOxfWt5WJriRWmK7kW7MDvvf/+60Rm8fcfJgFs+E9mGup4WfMf275T3Q6Fab58TpdxNxiSyx17urOPA5PJNCVaKg0qL36TkmfOQO/WfSQp9VP7w26qTi/wskYXalYz0KvIE5YrCS66gnPaHHkfpi6ivsOqvx/CPjRkr+KI3f5lheuq238tx12wi4ohpKQ2kjfcLEvWLfUsvZt5qfAOzDdQacfM/dJhK70+5dUV0dCdBV1nnla/dpG6CoujsR6Dp4PdBEWS3Rw07PXT3TVxshJ7kc6uorLX8WRu2zLS6w3a/rAC9AXXoR+2j7fx//AUVeua811y/CX+9FrdHM594s8Wx5Te3VuxVACP8HPsBf2GbFaEac1tIP28BQ8bcR2iaPHEsJiXee5G/AH3IY78LdjTiVeVVQOEu+OJZZr/i55ifUnlwEwEAbBYBii7fND/I8cdeW61ly3An+lH71GN5f9/c6zl2Jqr84tHwru8zE/wbqazK22z+Vejv8CiF37Ow==
+  </data>
+ </layer>
+ <layer name="wnddoor" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztlFcKwkAQhmPu4ims7/Z6Gcu7vth7ebGAXstyDv+gi0E2yUKyRuH/4CfJ7JRlZohhEEIIIYQQQgghhBASPAXTMIpQBaqaYd+G6GSE+Y6/NOMS6pShGlTnXv0dDcysGcLcrB3VtacZ5MxyF0Olhf63Q5rBBHWnGmrnkDPPvdJKD/3tf7nHqv+hGXzmPzD/C+5wdbmHOP/08/qW2VV8/KIz1w7ve2gADV/2FZ5rxXoiXhWZv8wWjTxlscDZ0nz7Oc1P4NYvP728Ie7uEivOP/28vmV2FR+/6Mx1wPsR6kBd6ARtoK3Nx7KdoTiUgJJQCkqb7/iYw7k93l5PZrMjyyf8nOan0q8ge0mIFw+J/1vF
+  </data>
+ </layer>
+ <layer name="finaltch" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztl0cOwjAQRSNfDHb0uqHcEK5C752z8FlYMVYSTxQrBPSfFAXL46lfFgkCQgghhBBCCCHEHw0VBE317Sw+qSCfasFyIuloYX7tgs2whnzqGXPq4HxXhW+SL3ncV/r+GeAZ5jTjHuL0VfgmbnxqIet9pbWSpBl9/4zwjDnjwnHCTM5KpoUV9tcZbST61VqRaMaMp33rmtLkbWKfT4r5j/jo1wXrq9DHBnZbh63Lxvd/LzOe9m3XJMnb1LurJxJ/v0za+qL6tcN6L/Qxg93cYXvD/l3gz9f3WVQ8uyZJTqbeXT2R9OGXkc5QE9WvA9ZHoY8F7JYO2wf2nwJ/Pr7P4uLZNUlzijtvI+nDmwlspoZdCb/LBdFjUh6++0WID14Xglbx
+  </data>
+ </layer>
+ <objectgroup name="triggers" width="0" height="0" visible="0">
+  <object x="2" y="450" width="4129" height="28">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="281" y="257" width="205" height="32">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="569" y="224" width="101" height="30">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="666" y="162" width="109" height="30">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="0" y="222" width="199" height="36">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="33" y="63" width="29" height="32">
+   <properties>
+    <property name="player" value=""/>
+   </properties>
+  </object>
+  <object x="888" y="290" width="206" height="28">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1178" y="226" width="203" height="29">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1474" y="193" width="188" height="33">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1664" y="256" width="158" height="35">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1761" y="191" width="60" height="25">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1817" y="129" width="175" height="26">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2105" y="290" width="207" height="27">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2339" y="225" width="59" height="55">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2392" y="161" width="206" height="31">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2688" y="321" width="190" height="29">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2944" y="290" width="256" height="28">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="3265" y="225" width="254" height="35">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="3587" y="323" width="249" height="25">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="3875" y="258" width="66" height="30">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="3938" y="223" width="188" height="33">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="4184" y="160" width="207" height="31">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="257" y="224" width="29" height="31">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="481" y="227" width="29" height="29">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="865" y="258" width="31" height="31">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="1090" y="258" width="30" height="31">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="1152" y="194" width="29" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="1376" y="193" width="33" height="31">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="1994" y="99" width="29" height="32">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="1793" y="96" width="28" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="2082" y="258" width="29" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="2304" y="256" width="33" height="31">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="2910" y="257" width="34" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="3202" y="256" width="31" height="32">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="3235" y="191" width="30" height="34">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="451" y="217" width="28" height="29">
+   <properties>
+    <property name="enemy1" value=""/>
+   </properties>
+  </object>
+  <object x="1059" y="247" width="28" height="29">
+   <properties>
+    <property name="enemy1" value=""/>
+   </properties>
+  </object>
+  <object x="1184" y="182" width="30" height="27">
+   <properties>
+    <property name="enemy2" value=""/>
+   </properties>
+  </object>
+  <object x="1825" y="82" width="30" height="27">
+   <properties>
+    <property name="enemy2" value=""/>
+   </properties>
+  </object>
+  <object x="2113" y="251" width="30" height="27">
+   <properties>
+    <property name="enemy2" value=""/>
+   </properties>
+  </object>
+  <object x="2947" y="248" width="30" height="27">
+   <properties>
+    <property name="enemy2" value=""/>
+   </properties>
+  </object>
+  <object x="3168" y="248" width="30" height="27">
+   <properties>
+    <property name="enemy3" value=""/>
+   </properties>
+  </object>
+  <object x="3488" y="184" width="30" height="27">
+   <properties>
+    <property name="enemy3" value=""/>
+   </properties>
+  </object>
+  <object x="3524" y="193" width="31" height="32">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="4095" y="414" width="31" height="32">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="4611" y="417" width="31" height="32">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="4127" y="407" width="30" height="27">
+   <properties>
+    <property name="enemy3" value=""/>
+   </properties>
+  </object>
+  <object x="2" y="3" width="8" height="445">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="4788" y="3" width="8" height="445">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="226" y="160" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="512" y="161" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="703" y="97" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="831" y="163" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="1119" y="195" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="1553" y="103" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="1713" y="148" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="2322" y="175" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="2767" y="244" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="3454" y="134" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="3697" y="241" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="4272" y="89" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="4514" y="354" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="4689" y="401" width="29" height="46">
+   <properties>
+    <property name="end" value=""/>
+   </properties>
+  </object>
+  <object x="4131" y="450" width="665" height="30">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2395" y="195" width="19" height="31">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1820" y="157" width="19" height="31">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

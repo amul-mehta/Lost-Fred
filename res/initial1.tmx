@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="sample-tileset.tsx"/>
+ <layer name="Tile Layer 1" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1N0KgCAMgNGsC/vv/d+23XgjkmwTJfgODJfKGoJOEwAAAAAAAIA/2yUOiXN0IwCQqb1PvF/9ceY+QWKWWEY3AjfvXWh5l6LEKrE1qDVSyL7TXQnKvPYPS63anGbd0reHtY9L4pZ4lLVKe629ePI0xuw80l2JyvyLtVZtTrNu6duj9/mV9lp78eRpfAH1vgUD
+  </data>
+ </layer>
+ <objectgroup name="triggers" width="150" height="15" visible="0">
+  <object x="33" y="321" width="29" height="28">
+   <properties>
+    <property name="player" value=""/>
+   </properties>
+  </object>
+  <object x="1" y="416" width="578" height="62">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

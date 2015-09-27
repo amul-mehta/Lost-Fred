@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="pineSaplingAlt" tilewidth="32" tileheight="32">
+  <image source="pineSaplingAlt.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="5" name="plant" tilewidth="32" tileheight="32">
+  <image source="plant2.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="9" name="plantAlt" tilewidth="32" tileheight="32">
+  <image source="plantAlt.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="13" name="deadTree" tilewidth="32" tileheight="32">
+  <image source="deadTree.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="17" name="pineSapling" tilewidth="32" tileheight="32">
+  <image source="pineSapling.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="21" name="christmas-snow-background-5" tilewidth="32" tileheight="32">
+  <image source="christmas-snow-background-5.jpg" width="1025" height="480"/>
+ </tileset>
+ <tileset firstgid="501" name="cloud1" tilewidth="32" tileheight="32">
+  <image source="cloud1.png" width="128" height="71"/>
+ </tileset>
+ <tileset firstgid="509" name="fence" tilewidth="32" tileheight="32">
+  <image source="fence.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="513" name="signExit" tilewidth="32" tileheight="32">
+  <image source="signExit.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="517" name="door_closedMid" tilewidth="32" tileheight="32">
+  <image source="door_closedMid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="521" name="door_closedTop" tilewidth="32" tileheight="32">
+  <image source="door_closedTop.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="525" name="caneGreenSmall" tilewidth="32" tileheight="32">
+  <image source="caneGreenSmall.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="529" name="caneGreenTop" tilewidth="32" tileheight="32">
+  <image source="caneGreenTop.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="533" name="caneGreen" tilewidth="32" tileheight="32">
+  <image source="caneGreen.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="537" name="spikesBottomAlt" tilewidth="32" tileheight="32">
+  <image source="spikesBottomAlt.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="541" name="tundraCliffLeft" tilewidth="32" tileheight="32">
+  <image source="tundraCliffLeft.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="545" name="tundraCliffRight" tilewidth="32" tileheight="32">
+  <image source="tundraCliffRight.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="549" name="tundraMid" tilewidth="32" tileheight="32">
+  <image source="tundraMid.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="553" name="tundraLeft" tilewidth="32" tileheight="32">
+  <image source="tundraLeft.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="557" name="tundraRight" tilewidth="32" tileheight="32">
+  <image source="tundraRight.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="561" name="spikesBottomAlt2" tilewidth="32" tileheight="32">
+  <image source="spikesBottomAlt2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="565" name="iceWaterAlt" tilewidth="32" tileheight="32">
+  <image source="iceWaterAlt.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="569" name="treeBranchesLeftSnowAlt" tilewidth="32" tileheight="32">
+  <image source="treeBranchesLeftSnowAlt.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="573" name="treeBranchesSnowRightSnowAlt" tilewidth="32" tileheight="32">
+  <image source="treeBranchesSnowRightSnowAlt.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="577" name="treeTrunkBottom" tilewidth="32" tileheight="32">
+  <image source="treeTrunkBottom.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="581" name="treeBranchesSnowLeft" tilewidth="32" tileheight="32">
+  <image source="treeBranchesSnowLeft.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="585" name="treeBranchesSnowRight" tilewidth="32" tileheight="32">
+  <image source="treeBranchesSnowRight.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Back" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0sO2JAYARdF6sd1G2raRtm3btp22bdu2bdu23TH3R9SgBrXW3dMzupEDgUAUohKN6MQgJrGIzY/EIS7xiE8CEpKIxCQhKclITgpSkorUpCEt6UhPhnAv5HqRiBwIzh8ykZksZCUb2fmJHOQkF7nJQ17ykZ8CFKQQhSlCUYpRnBKUpBSlKUNZylE+3Au5XsZA8P5QkUpUpgpVqUZ1alCTWtSmDnWpR30a0JBGNKYJTWlGc1rQkla0pg1taUf7cC/kehUCwftDRzrRmS50pRvd6UFPevEzvelDX/rRnwEMZBCDGcJQhjGcEYxkFKMZw1jGhXsh1+sQCN4fJjCRSUxmClOZxnRmMJNZzGYOc5nHfBawkEUsZglLWcZyVrCSVaxmDWtZF+6FXG98IHh/2MBGNrGZLWxlG9vZwU52sZs97GUf+znAQQ5xmCMc5RjHOcFJTnGaM5zlXLgXcr31geD94QIXucRlrnCVa1znBje5xW3ucJd73OcBD3nEY57wlGc85wUvecVr3vCWd+FeyPXOB4L3h1/5jd/5gz/5i7/5h3/5j0CE8R7v8wEf8hEf8wmf8hmf8wVf8hVf8w3f8h3f80O4F3K9X4L4h8hEISrRiE4MYhKL2PxIHOISj/gkICGJSEwSkpKM5KQgJalITRrSko70ZAj3Qq4XKSJ4f8hEZrKQlWxk5ydykJNc5CYPeclHfgpQkEIUpghFKUZxSlCSUpSmDGUpR/lwL+R6GSOC94eKVKIyVahKNapTg5rUojZ1qEs96tOAhjSiMU1oSjOa04KWtKI1bWhLO9qHeyHXqxARvD90pBOd6UJXutGdHvSkFz/Tmz70pR/9GcBABjGYIQxlGMMZwUhGMZoxjGVcuBdyvQ4RwfvDBCYyiclMYSrTmM4MZjKL2cxhLvOYzwIWsojFLGEpy1jOClayitWsYS3rwr2Q642PCN4fNrCRTWxmC1vZxnZ2sJNd7GYPe9nHfg5wkEMc5ghHOcZxTnCSU5zmDGc5F+6FXG99RPD+cIGLXOIyV7jKNa5zg5vc4jZ3uMs97vOAhzziMU94yjOe84KXvOI1b3jLu3Av5HrnI4L3h/8BSM94OQ==
+  </data>
+ </layer>
+ <layer name="Main" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztlYdqwzAURRVl79m9R5qm6YLuPaGF9v//puMKCjZGG9uN4R04CNnS05XUuIwRBEEQBEEQBEEQBEFkiyvO2DW8g/f8v9MwtoAMiw45XMdnjWm7H1tukPUWPsDHKci9hAzLDjlcx2eNJO6nizq9hM/sDfXf4Qf8NKzVhK0Es6xh/XW4Bbct9u06Pou43I+MKubUIvP66A9SOK8nrPFssU4bdmJa8wTrnTrszXW8L3XYSH4ZJ2zvR0Yd8xqRuTPoz0rqFWFJUacKa5LnOaiKZsq9gnercANuRsbpsqhI47vUxLhWZKzuDAS6ferowp4pD1N/601naPN3lcN7Hhrzhc1+wyKelXjQF8yhPy+pV4YVRX3V7y0PC4o5L1jjVZNbd68+WdKgjZydSFbdGQh8/6/24cCUh6m/9bozFJjuR5DH+wIPzvzn70dUhhUe9MdwDw7hjkd7AA/hGTwP1ZM9M81VtbYZbevF1druaxzzPoeS+j53l1Qrsk3gPhzBXY/2CB7DC3gZqid7Zpqram0z2taLq7Xd1yTmfY4k9X3uLqlWZPsF0sVPYg==
+  </data>
+ </layer>
+ <objectgroup name="triggers" width="0" height="0" visible="0">
+  <object x="0" y="417" width="576" height="60">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="641" y="416" width="94" height="64">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="804" y="417" width="252" height="62">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1120" y="351" width="129" height="66">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1316" y="417" width="377" height="61">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1762" y="353" width="127" height="32">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="1956" y="287" width="122" height="32">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2145" y="352" width="127" height="32">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2336" y="289" width="127" height="32">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2530" y="417" width="251" height="59">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2850" y="418" width="59" height="61">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="3168" y="417" width="384" height="64">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="3618" y="418" width="1181" height="58">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="2975" y="353" width="127" height="61">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="769" y="388" width="31" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="1060" y="387" width="31" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="1281" y="384" width="31" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="1694" y="384" width="31" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="2497" y="386" width="31" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="2786" y="388" width="31" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="3136" y="384" width="31" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="3557" y="385" width="31" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="3776" y="384" width="31" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="4165" y="386" width="31" height="30">
+   <properties>
+    <property name="endp" value=""/>
+   </properties>
+  </object>
+  <object x="1028" y="378" width="28" height="29">
+   <properties>
+    <property name="enemy1" value=""/>
+   </properties>
+  </object>
+  <object x="1664" y="375" width="28" height="29">
+   <properties>
+    <property name="enemy1" value=""/>
+   </properties>
+  </object>
+  <object x="1315" y="372" width="28" height="29">
+   <properties>
+    <property name="enemy1" value=""/>
+   </properties>
+  </object>
+  <object x="2530" y="378" width="30" height="27">
+   <properties>
+    <property name="enemy2" value=""/>
+   </properties>
+  </object>
+  <object x="3171" y="376" width="30" height="27">
+   <properties>
+    <property name="enemy2" value=""/>
+   </properties>
+  </object>
+  <object x="3523" y="376" width="30" height="27">
+   <properties>
+    <property name="enemy3" value=""/>
+   </properties>
+  </object>
+  <object x="3812" y="376" width="30" height="27">
+   <properties>
+    <property name="enemy3" value=""/>
+   </properties>
+  </object>
+  <object x="260" y="324" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="670" y="323" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="926" y="322" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="1169" y="262" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="1810" y="259" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="2001" y="192" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="2193" y="254" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="2387" y="190" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="3025" y="259" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="3697" y="321" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="4434" y="290" width="32" height="30">
+   <properties>
+    <property name="coin" value=""/>
+   </properties>
+  </object>
+  <object x="4691" y="367" width="29" height="46">
+   <properties>
+    <property name="end" value=""/>
+   </properties>
+  </object>
+  <object x="4791" y="0" width="7" height="417">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="0" y="-2" width="7" height="417">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object x="126" y="160" width="33" height="28">
+   <properties>
+    <property name="player" value=""/>
+   </properties>
+  </object>
+  <object x="579" y="466" width="63" height="10">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="738" y="469" width="63" height="10">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="1060" y="465" width="249" height="14">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="1697" y="467" width="833" height="13">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="2787" y="468" width="63" height="10">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="2914" y="466" width="253" height="14">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+  <object x="3554" y="468" width="63" height="10">
+   <properties>
+    <property name="ground" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
