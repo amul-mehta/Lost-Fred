@@ -62,7 +62,7 @@ class Tileset(object):
     def fromxml(cls, tag, firstgid=None):
         if 'source' in tag.attrib:
             firstgid = int(tag.attrib['firstgid'])
-            with open(tag.attrib['source']) as f:
+            with open("res/"+tag.attrib['source']) as f:
                 tileset = ElementTree.fromstring(f.read())
             return cls.fromxml(tileset, firstgid)
 
@@ -77,7 +77,7 @@ class Tileset(object):
         for c in tag.getchildren():
             if c.tag == "image":
                 # create a tileset
-                tileset.add_image(c.attrib['source'])
+                tileset.add_image("res/"+c.attrib['source'])
             elif c.tag == 'tile':
                 gid = tileset.firstgid + int(c.attrib['id'])
                 tileset.get_tile(gid).loadxml(c)

@@ -1,5 +1,5 @@
 import pygame
-import tmx
+import res.tmx as tmx
 
 ncoins=0
 stri= ''
@@ -140,7 +140,7 @@ class Level1(object):
         self.govr = pygame.mixer.Sound('res/go.ogg')
         self.coinsound = pygame.mixer.Sound('res/coin.wav')
 
-        self.tilemap = tmx.load('res/initial2.tmx', screen.get_size()) #.tmx file and View Port       
+        self.tilemap = tmx.load('res/initial2.tmx', screen.get_size()) #.tmx file and View Port
         self.sprites = tmx.SpriteLayer()
         start_cell = self.tilemap.layers['triggers'].find('player')[0]
         self.player = Player((start_cell.px, start_cell.py), self.sprites)
